@@ -1,0 +1,15 @@
+.Product {
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+
+  padding: 10px;
+  margin: 20px;
+  max-height: 400px;
+}
+
+.Product > img {
+  max-height: 200px;
+  object-fit: contain;
+}

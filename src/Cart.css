@@ -1,0 +1,35 @@
+.Cart {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  background-color: #eaeded;
+  height: 100vh;
+}
+
+.cart__details {
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  height: 250px;
+  flex: 0.79;
+}
+.cart__checkout {
+  margin: 10px;
+  flex: 0.21;
+}
+.cart__ad {
+  margin: 0px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.cart__amount {
+  background-color: white;
+  padding: 10px;
+}
+.cart__amount > p {
+  font-size: 12px;
+  margin-left: 10px;
+  text-align: center;
+}
