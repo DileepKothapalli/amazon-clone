@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
-      <img className="header__logo" src={logo}></img>
+      <img className="header__logo" src={logo} alt=""></img>
       <LocationOnOutlinedIcon className="header__location" />
       <div className="header__address">
         <span className="header__lineone">Hello</span>

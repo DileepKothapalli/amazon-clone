@@ -3,13 +3,42 @@
   align-items: center;
   justify-content: center;
   background-color: #fafafa;
-
+  max-width: 400px;
   padding: 10px;
   margin: 20px;
-  max-height: 400px;
+  max-height: auto;
 }
 
 .Product > img {
   max-height: 200px;
-  object-fit: contain;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.Product__info {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #007185;
+  margin-bottom: 10px;
+}
+.Product__info:hover {
+  color: #b12704;
+}
+
+.Product__price {
+  color: #0f1111;
+  display: block;
+}
+
+.Product__button {
+  background-color: #ffd814;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0px;
+  color: #0f1111;
+  border-radius: 4px;
 }

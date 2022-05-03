@@ -2,13 +2,13 @@ import React from "react";
 import "./Auth.css";
 
 import Logo from "./images/Amazon_black.png";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Auth = () => {
   return (
     <div className="Auth">
       <Link to="/">
-        <img className="Logo" src={Logo}></img>
+        <img className="Logo" src={Logo} alt=""></img>
       </Link>
       <div className="Auth__form">
         <h1>Create Account</h1>

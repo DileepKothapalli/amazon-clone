@@ -1,21 +1,20 @@
-import "./App.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import Auth from "./Auth";
 import Cart from "./Cart";
+import "./App.css";
 
 function App() {
   return (
     <BrowserRouter className="App">
       <Switch>
         <Route exact path="/Auth" component={Auth}></Route>
-        <Route exact path="/Cart" component={Cart}>
+        <Route exact path="/Cart">
           <Header />
           <Cart />
         </Route>
-        <Route exact path="/" component={Home}>
-          <Header />
+        <Route exact path="/">
           <Home />
         </Route>
       </Switch>
